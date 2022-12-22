@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+
+  .main-container {
+    width: 100%;
+  }
+
+  .section-container {
+    width: 100%;
+    padding: 3em;
+  }
+}

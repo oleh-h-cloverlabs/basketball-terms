@@ -1,0 +1,29 @@
+.aside-container {
+  width: 20vw;
+  min-width: 200px;
+  max-width: 600px;
+  height: 100vh;
+  border-bottom-right-radius: $sidebarCornerRadius;
+  border-top-right-radius: $sidebarCornerRadius;
+  background-color: $sidebarBgColor;
+
+  .aside-wrapper {
+    padding: 1em 0 1em 1em;
+
+    .aside-title {
+      padding: 0.5em;
+      margin-bottom: 20px;
+    }
+
+    .aside-link {
+      padding-left: 25px;
+
+      &.active {
+        border-top-left-radius: $activeLinkRadius;
+        border-bottom-left-radius: $activeLinkRadius;
+        background: $bodyBc;
+        transition: $transitionAll;
+      }
+    }
+  }
+}
